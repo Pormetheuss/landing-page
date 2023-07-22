@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+
+.top{
+    display:flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h3{
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 200px;
+}
+
+.links{
+    display:flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    gap: 30px;
+    padding-right: 200px;
+}
+
+.link{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.first{
+    display: flex;
+    align-items:center;
+    height: 450px;
+    background-color: #1F2937; 
+    justify-content: space-between;
+}
+
+.whale{
+    width:400px;
+    height: auto;
+    margin-right: 200px;
+
+}
+.content1{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0px;
+}
+
+.awesome{
+    font-size: 45px;
+    font-weight: bolder; 
+    color: #F9FAF8;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+
+
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+
+button{
+    background-color: #3882f6;
+    border-color: white;
+    color: #F9FAF8;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:5px;
+
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: top;
+    align-items: center;
+}
+
+.second h2{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 800;
+    margin-bottom:150px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgs p{
+    color: gray;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: #1F2937
+}
+
+.Thor{
+    color: #1F2937;
+    font-weight: 800;
+
+}
+
+.four{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.blue{
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.non-b{
+    margin-left: 100px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.word{
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.confirm{
+    margin-top: 0px;
+}
+
+.final{
+    margin-right: 100px;
+    height: 30px;
+    align-self: center;
+}
+
+
+
